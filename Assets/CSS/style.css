@@ -1,0 +1,70 @@
+body{
+    background-color: rgb(58, 58, 176);
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    color: white;
+}
+p, button{
+    font-family: Cursed Timer ULiL, sans-serif;
+}
+#score_home, #score_guest{
+    color: red;
+    font-size: 60px;
+    border-radius: 10px;
+    border-color: black;
+    background-color: black;
+    height: 120px;
+    width: 150px;
+    padding-top: 60px;
+    padding-bottom: auto;
+    text-align: center;
+    margin: auto;
+}
+#stat_p{
+    border-radius: 10px;
+    border-color: #9aabd8;
+    background-color: #9aabd8;
+    padding-top: 60px;
+    padding-bottom: auto;
+    height: 120px;
+    width: 150px;
+    margin: auto;
+    text-align: center;
+    font-size: 18px;
+}
+button{
+    margin-top: 10px;
+    height: 30px;
+    width: 30px;
+    background-color: rgb(58, 58, 176) ;
+    border-color: #9aabd8;
+    border-radius: 1px;
+    color: #9aabd8;
+    border-style: solid;
+}
+#new_game{
+    width: 100px;
+}
+#main{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+#new_game:hover{
+    background-color: white;
+}
+#new_game:hover #new_game_r{
+    color: red;
+}
+#new_game:hover #new_game_b{
+    color: black;
+}
+#btnh1:hover, #btnh2:hover, #btnh3:hover, #btng1:hover, #btng2:hover, #btng3:hover{
+    border-color: red;
+    border-radius: 1px;
+    color: red;
+    border-style: solid;
+
+}

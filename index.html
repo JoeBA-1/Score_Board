@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Assets/CSS/style.css">
+    <link
+      href="http://fonts.cdnfonts.com/css/cursed-timer-ulil"
+      rel="stylesheet"
+    />
+    <title>Score_Board</title>
+</head>
+<body>
+ <div id="main">
+    <div>
+        <h1 id="T_home">HOME</h1>
+        <p id="score_home">0</p>
+        <button id="btnh1" onclick="increment_h_1()">+1</button>
+        <button id="btnh2" onclick="increment_h_2()">+2</button>
+        <button id="btnh3" onclick="increment_h_3()">+3</button>
+    </div>
+    <div>
+        <h1>STATISTICS</h1>
+        <p id="stat_p">SAME SCORE BOTH</p>
+        <button id="new_game" onclick="Reset()"><span id="new_game_r">N</span><span id="new_game_b">ew Game</span></button>
+    </div>
+    <div>
+        <h1 id="T_guest">GUEST</h1>
+        <p id="score_guest">0</p>
+        <button id="btng1" onclick="increment_g_1()">+1</button>
+        <button id="btng2" onclick="increment_g_2()">+2</button>
+        <button id="btng3" onclick="increment_g_3()">+3</button>
+    </div>
+ </div>
+    

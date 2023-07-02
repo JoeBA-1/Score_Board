@@ -61,7 +61,7 @@ function score() {
         document.getElementById("T_home").style.backgroundColor = "initial"
     } else if (Result > 0) {
         stat_Result.textContent = "Home score is higher by: " + Result + " points"
-        document.getElementById("T_home").style.backgroundColor = "red";
+        document.getElementById("T_home").style.backgroundColor = "red"
         document.getElementById("T_guest").style.backgroundColor = "initial"
     } else {
         stat_Result.textContent = "SAME SCORE BOTH"
